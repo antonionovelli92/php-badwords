@@ -53,13 +53,13 @@ $text_banned_length= strlen($text_banned); // Conto di quante lettere è compost
       <p>
         <?= $text ?>
       </p>
-      <h5> La frase è composta da <span class="bold"> <?=$text_length?> </span> lettere</h5>
+      <h5> La frase è composta da <span class="fw-bolder text-danger"> <?=$text_length?> </span> lettere</h5>
 
       <h4 class="mt-3">Paragrafo con censura:</h4>
       <p>
         <?= $text_banned ?>
       </p>
-      <h5> La frase è composta da <span class="bold"> <?=$text_banned_length?> </span> lettere</h5>
+      <h5> La frase è composta da <span class="fw-bolder text-danger"> <?=$text_banned_length?> </span> lettere</h5>
 
     </div>
     
